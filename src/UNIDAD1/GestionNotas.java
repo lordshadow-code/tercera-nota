@@ -8,8 +8,8 @@ public class GestionNotas {
 
    public static void main(String[] var0) {
       Scanner var1 = new Scanner(System.in);
-      System.out.println("--- SISTEMA DE GESTIÃ“N DE NOTAS ESTUDIANTILES ---");
-      System.out.println("Se evaluarÃ¡n 5 estudiantes con 3 notas cada uno.");
+      System.out.println("--- SISTEMA DE GESTION DE NOTAS ESTUDIANTILES ---");
+      System.out.println("Se evaluaran 5 estudiantes con 3 notas cada uno.");
       String[] var2 = new String[5];
       String[] var3 = new String[5];
       double[][] var4 = new double[5][3];
@@ -19,7 +19,7 @@ public class GestionNotas {
          System.out.println("\n----------------------");
          System.out.print("Ingrese el nombre del estudiante " + (var6 + 1) + ": ");
          var2[var6] = var1.nextLine();
-         System.out.print("Ingrese la identificaciÃ³n (ID) del estudiante " + (var6 + 1) + ": ");
+         System.out.print("Ingrese la identificacion (ID) del estudiante " + (var6 + 1) + ": ");
          var3[var6] = var1.nextLine();
          double var7 = (double)0.0F;
 

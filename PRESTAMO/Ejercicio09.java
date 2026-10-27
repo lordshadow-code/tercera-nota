@@ -1,0 +1,19 @@
+package PRESTAMO;
+
+import java.util.*;
+
+public class Ejercicio09 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+System.out.println("Ejercicio 9: Validar si un número es positivo o negativo");
+        System.out.print("Ingrese un número: ");
+        double numero = entrada.nextDouble();
+        if (numero > 0) {
+            System.out.println("El número es positivo.");
+        } else if (numero < 0) {
+            System.out.println("El número es negativo.");
+        } else {
+            System.out.println("El número es cero.");
+        }
+    }
+}
